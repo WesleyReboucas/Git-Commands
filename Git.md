@@ -41,7 +41,7 @@
 
 --> Criar um novo branch:
 		
-		git checkout -b branch -b (nomedaBranch)
+		git checkout -b branch (nomedaBranch)
 
 --> Identificar quais as Branch existentes e saber em qual você estar:
 		
