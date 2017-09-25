@@ -7,30 +7,33 @@
 
 --> Configurar o nome da sua conta :
 
-		git config --global user.name "(seuUsuario)"
+		git config --global user.name "SEU_USUARIO"
 
 --> Configurar o email da sua conta:
 
-		git config --global user.email "(seuemail@seuemail.com)"
+		git config --global user.email "SEU_EMAIL"
 
 --> Configurar o editor padrão da sua conta
 
-		git config --global core.editor "(nomedoEditor)"
+		git config --global core.editor "NOME_EDITOR"
 
 --> Verificar todas as configurações:
 
 		git config  --list
 
+--> Alterar repositório remoto:
+
+		git remote set-url origin NOVO_REPOSITÓRIO_AQUI
 
 ---------> Inicializando um repositorio
 
 --> Criar uma pasta :
 	
-		mkdir (sua-pasta)
+		mkdir SUA_PASTA
 
 --> Entrar na pasta:
 
-		cd (sua-pasta)
+		cd SUA_PASTA
 
 --> Iniciar o git nessa pasta:
 
@@ -41,7 +44,7 @@
 
 --> Criar um novo branch:
 		
-		git checkout -b branch (nomedaBranch)
+		git checkout -b branch NOME_BRANCH
 
 --> Identificar quais as Branch existentes e saber em qual você estar:
 		
@@ -49,11 +52,11 @@
 
 --> Navegar entre as Branch:
 		
-		git checkout (nomedaBranch)
+		git checkout NOME_BRANCH
 
 --> Apagar uma branch:
 		
-		git branch -D (nomeBranch)
+		git branch -D NOME_BRANCH
 
 --> Unir branch:
 
