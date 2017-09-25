@@ -23,7 +23,7 @@
 
 --> Alterar repositório remoto:
 
-		git remote set-url origin NOVO_REPOSITÓRIO_AQUI
+		git remote set-url origin NOVO_REPOSITÓRIO
 
 ---------> Inicializando um repositorio
 
