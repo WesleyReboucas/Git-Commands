@@ -61,10 +61,13 @@
 --> Unir branch:
 
 *Merge = Ele junta commit's criados em outras branch's, criando um novo commmit
-		na branch master. Deixando assim tudo linear.
+		na branch master. Deixando assim tudo linear. Estando na master, digite:
 
-		
+			git merge NOME_BRANCH		
 
 *Rebase = Ele junta commit's criados em outras branch's, movendo o commit da 
 		branch criada para a branch master.
-		# Git
+		
+--> Realizar um pull request:
+		
+		git request-pull NOME_BRANCH URL master
