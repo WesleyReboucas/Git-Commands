@@ -2,8 +2,8 @@
 					----| Comandos Git |----
 	
 	
----------> Configuração
-
+---------> Configuração 
+ 
 
 --> Configurar o nome da sua conta :
 
