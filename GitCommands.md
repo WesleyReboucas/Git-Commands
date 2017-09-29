@@ -23,7 +23,7 @@
 
 --> Alterar repositório remoto:
 
-		git remote set-url origin NOVO_REPOSITÓRIO
+		git remote set-url origin URL_REPOSITÓRIO
 
 ---------> Inicializando um repositorio
 
@@ -38,6 +38,10 @@
 --> Iniciar o git nessa pasta:
 
 		git init
+
+--> Iniciar o repositório remoto:
+
+		git remote add URL_REPOSITORIO 
 
 
 ---------> Branch
@@ -68,6 +72,6 @@
 *Rebase = Ele junta commit's criados em outras branch's, movendo o commit da 
 		branch criada para a branch master.
 		
---> Realizar um pull request:
+--> Realizar um pull request - Estando na master, faça um merge e depois realize o pull request:
 		
 		git request-pull NOME_BRANCH URL master
