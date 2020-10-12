@@ -1,12 +1,10 @@
-# Git
+				-------------------| Comandos Git |-----------------
 
 ##### Esse é um resumo que estou criando com minhas palavras sobre Git e resolvi postar para que possa ajudar outras pessoas. Sintam-se avontade para ajudar com novos / melhores comandos.
 ###### Agradeço a todos
 
 ##### This is a summary I'm creating with my words about Git and I've decided to post so that I can help others. Feel free to help with new / better commands.
 ###### I thank you all
-
-				-------------------| Comandos Git |-----------------
 	
 	
 -> Configuração 
@@ -27,17 +25,17 @@
 
 -> Inicializando um repositorio
 
-    git init 
+    		git init 
     
-    git add . (Caso tenha conteúdo na pasta)  
+   		git add . (Caso tenha conteúdo na pasta)  
     
-    git commit -m "SEU_COMMIT"   
+    		git commit -m "SEU_COMMIT"   
     
-    git branch -M main    
+   		git branch -M main    
     
-    git remote add origin https://github.com/SEU_USUÁRIO/SEU_REPOSITÓRIO.git  
+   		git remote add origin https://github.com/SEU_USUÁRIO/SEU_REPOSITÓRIO.git  
     
-    git push -u origin main
+   		git push -u origin main
     
 
 --> Criar um novo branch:
@@ -61,7 +59,7 @@
 *Merge = Ele junta commit's criados em outras branch's, criando um novo commmit
 		na branch master. Deixando assim tudo linear. Estando na master, digite:
 
-			git merge NOME_BRANCH		
+		git merge NOME_BRANCH		
 
 *Rebase = Ele junta commit's criados em outras branch's, movendo o commit da 
 		branch criada para a branch master.
