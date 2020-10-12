@@ -25,11 +25,11 @@
 
 -> Inicializando um repositorio
 
-    		git init 
+		git init 
     
    		git add . (Caso tenha conteúdo na pasta)  
-    
-    		git commit -m "SEU_COMMIT"   
+		
+		git commit -m "SEU_COMMIT"   
     
    		git branch -M main    
     
