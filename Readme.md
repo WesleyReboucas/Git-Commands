@@ -47,6 +47,10 @@
 		
 		git branch -D NOME_BRANCH
 
+--> Voltar para commit anterior:
+
+		git reset --soft HEAD~1
+
 --> Unir branch:
 
 *Merge = Ele junta commit's criados em outras branch's, criando um novo commmit
